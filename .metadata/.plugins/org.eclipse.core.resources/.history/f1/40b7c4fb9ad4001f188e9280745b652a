@@ -1,0 +1,38 @@
+package pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class RegistrationPage extends BasePage {
+
+	public RegistrationPage(WebDriver driver) {
+		super(driver);
+		
+	}
+	
+	@FindBy(xpath = "//input[@id='input-firstname']")
+	WebElement FirstName;
+	
+	@FindBy(xpath = "//input[@id='input-lastname']")
+	WebElement LastName;
+	
+	@FindBy(xpath = "//input[@id='input-telephone']")
+	WebElement TelePhone;
+	
+	@FindBy(xpath = "//input[@id='input-email']")
+	WebElement Email;
+	
+	@FindBy(xpath = "//input[@id='input-password']")
+	WebElement Password;
+	
+	@FindBy(xpath = "//input[@id='input-confirm']")
+	WebElement ConfirmPassword;
+	
+	@FindBy(xpath = "//a[text()='Privacy Policy']")
+	WebElement CheckBox;
+
+	@FindBy(xpath = "//a[text()='Continue']")
+	WebElement ContinueBtn;
+
+}

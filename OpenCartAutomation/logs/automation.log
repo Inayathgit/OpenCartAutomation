@@ -1,0 +1,40 @@
+2025-01-30 08:49:43 INFO  TC_002Login:14 - **** Starting TC__002Login ****
+2025-01-30 08:49:46 INFO  TC_002Login:28 - **** Validating Headliner Text ****
+2025-01-30 08:49:46 INFO  TC_002Login:43 - **** Finished TC__002Login ****
+2025-01-30 08:49:51 INFO  TC_001AccountRegistration:20 - ****TC_001AccountRegistration Started ****
+2025-01-30 08:49:55 INFO  TC_001AccountRegistration:52 - **** TC_001AccountRegistration Execution Finished ****
+2025-01-30 09:18:51 INFO  TC_002Login:14 - **** Starting TC__002Login ****
+2025-01-30 09:18:53 INFO  TC_002Login:28 - **** Validating Headliner Text ****
+2025-01-30 09:18:53 INFO  TC_002Login:43 - **** Finished TC__002Login ****
+2025-01-30 09:18:58 INFO  TC_001AccountRegistration:20 - ****TC_001AccountRegistration Started ****
+2025-01-30 09:19:01 INFO  TC_001AccountRegistration:52 - **** TC_001AccountRegistration Execution Finished ****
+2025-01-30 09:39:46 INFO  TC_002Login:14 - **** Starting TC__002Login ****
+2025-01-30 09:39:48 INFO  TC_002Login:28 - **** Validating Headliner Text ****
+2025-01-30 09:39:48 INFO  TC_002Login:43 - **** Finished TC__002Login ****
+2025-01-30 09:39:50 INFO  TC_001AccountRegistration:20 - ****TC_001AccountRegistration Started ****
+2025-01-30 09:39:54 INFO  TC_001AccountRegistration:52 - **** TC_001AccountRegistration Execution Finished ****
+2025-01-30 09:44:55 INFO  TC_002Login:14 - **** Starting TC__002Login ****
+2025-01-30 09:44:58 INFO  TC_002Login:28 - **** Validating Headliner Text ****
+2025-01-30 09:44:58 INFO  TC_002Login:43 - **** Finished TC__002Login ****
+2025-01-30 09:45:02 INFO  TC_001AccountRegistration:20 - ****TC_001AccountRegistration Started ****
+2025-01-30 09:45:05 INFO  TC_001AccountRegistration:52 - **** TC_001AccountRegistration Execution Finished ****
+2025-01-30 19:36:14 INFO  TC_002Login:14 - **** Starting TC__002Login ****
+2025-01-30 19:36:16 INFO  TC_002Login:28 - **** Validating Headliner Text ****
+2025-01-30 19:36:16 INFO  TC_002Login:43 - **** Finished TC__002Login ****
+2025-01-30 19:36:22 INFO  TC_001AccountRegistration:20 - ****TC_001AccountRegistration Started ****
+2025-01-30 19:36:25 ERROR TC_001AccountRegistration:46 - Test Case Failed
+2025-01-30 19:43:20 INFO  TC_002Login:14 - **** Starting TC__002Login ****
+2025-01-30 19:43:23 INFO  TC_002Login:28 - **** Validating Headliner Text ****
+2025-01-30 19:43:23 INFO  TC_002Login:43 - **** Finished TC__002Login ****
+2025-01-30 19:43:26 INFO  TC_001AccountRegistration:20 - ****TC_001AccountRegistration Started ****
+2025-01-30 19:43:30 ERROR TC_001AccountRegistration:46 - Test Case Failed
+2025-01-30 19:44:27 INFO  TC_002Login:14 - **** Starting TC__002Login ****
+2025-01-30 19:44:29 INFO  TC_002Login:28 - **** Validating Headliner Text ****
+2025-01-30 19:44:29 INFO  TC_002Login:43 - **** Finished TC__002Login ****
+2025-01-30 19:44:33 INFO  TC_001AccountRegistration:20 - ****TC_001AccountRegistration Started ****
+2025-01-30 19:44:36 INFO  TC_001AccountRegistration:52 - **** TC_001AccountRegistration Execution Finished ****
+2025-01-30 20:31:14 INFO  TC_002Login:14 - **** Starting TC__002Login ****
+2025-01-30 20:31:17 INFO  TC_002Login:28 - **** Validating Headliner Text ****
+2025-01-30 20:31:17 INFO  TC_002Login:43 - **** Finished TC__002Login ****
+2025-01-30 20:31:26 INFO  TC_001AccountRegistration:20 - ****TC_001AccountRegistration Started ****
+2025-01-30 20:31:30 INFO  TC_001AccountRegistration:52 - **** TC_001AccountRegistration Execution Finished ****

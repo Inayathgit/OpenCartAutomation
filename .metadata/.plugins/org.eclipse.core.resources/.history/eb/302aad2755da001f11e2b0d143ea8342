@@ -1,0 +1,43 @@
+package testCases;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import pageObjects.HomePage;
+import pageObjects.LoginPage;
+import pageObjects.MyAccountPage;
+import utilities.DataProviders;
+
+public class TC003__LoginDDT extends BaseClass{
+	
+	
+	@Test(dataProvider="LoginData",dataProviderClass=DataProviders.class)
+	public void verifyLoginDDT(String username,String password,String res) {
+	HomePage homepage = new HomePage(driver);
+	homepage.clickOnMyAccount();
+	homepage.clickOnLogin();
+	System.out.println("This is "+username);
+	LoginPage loginpage = new LoginPage(driver);
+	
+	loginpage.enterEmail(prop.getProperty("email"));
+	
+	loginpage.enterPassword(prop.getProperty("password"));
+	loginpage.clickOnLoginBtn();
+	logger.info("**** Validating Headliner Text ****");
+	MyAccountPage myaccountpage = new MyAccountPage(driver);
+	Boolean result  = myaccountpage.isHeadlinerdisplayed();
+	if(res.equalsIgnoreCase("Valid")) {
+	if(result=true){
+		myaccountpage.clickOnLogoutBtn();
+		Assert.assertTrue(true);
+	}
+	else {
+		Assert.assertTrue(false);
+	}
+	 
+	
+	
+
+}
+	}
+}
