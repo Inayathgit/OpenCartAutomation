@@ -16,4 +16,6 @@
     <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
     <fullyQualifiedTypeName name="org.apache.logging.log4j.core.Logger"/>
     <fullyQualifiedTypeName name="org.testng.Assert"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Platform"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeOptions"/>
 </qualifiedTypeNameHistroy>
